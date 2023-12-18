@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  max-width: 680px;
+  position: fixed;
+  height: 54px;
+  margin: 0 auto;
+  background: #1a1b1c;
+  top: 0px;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_logo {
+  background: url(https://crystalstatic.com/cache/b109/Mobile/content/img/common/new/cb.svg);
+  width: 40px;
+  height: 22px;
+  background-size: 40px 22px;
+  display: block;
+}
+.sportlistcont {
+  width: 100%;
+  max-width: 680px;
+  background: #242424;
+  position: fixed;
+  top: 54px;
+  height: 60px;
+  z-index: 102;
+  overflow: hidden;
+}

@@ -1,0 +1,100 @@
+.afterheader {
+  width: 100%;
+  position: relative;
+  z-index: auto;
+  margin-top: 110px;
+}
+.headerteamslist {
+  width: 100%;
+  height: 70px;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  display: flex;
+}
+.headertopteamlist {
+  min-width: 180px;
+  width: 180px;
+  height: 50px;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  background: #2e2f30;
+  backdrop-filter: blur(5px);
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 9px;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+}
+
+.topteamone,
+.topteamtwo {
+  width: 99px;
+  height: 14px;
+  padding-left: 19px;
+  height: 14px;
+  font-family: "CrystalNU4-Bold";
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.topteamlogo {
+  width: 14px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.topodds {
+  min-width: 62px;
+  max-width: 62px;
+  height: 14px;
+  line-height: 14px;
+  position: absolute;
+  top: 11px;
+  right: 9px;
+  font-family: "CrystalNU4-Bold";
+  font-size: 14px;
+  color: #fde053;
+  text-align: right;
+}
+.score1 {
+  color: #fde053;
+}
+.scoremiddle {
+  color: #fde053;
+}
+.score2 {
+  color: #fde053;
+}
+.topoddstime {
+  width: 62px;
+  position: absolute;
+  top: 27.5px;
+  right: 10px;
+  font-family: "CrystalNU4-Bold";
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  color: #1f93ff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

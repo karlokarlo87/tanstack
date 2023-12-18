@@ -1,0 +1,251 @@
+.livelist {
+  width: 100%;
+  max-width: 680px;
+  min-height: calc(100vh - 114px);
+  position: relative;
+  float: left;
+  margin-top: 114px;
+}
+.livesportminimisecontainer {
+  position: relative;
+}
+.topleagueshead {
+  background-color: #2b2b2b;
+  height: 38px;
+  line-height: 40px;
+  padding-right: 38px;
+  font-size: 12px;
+  color: #cccccc;
+  position: relative;
+  padding-left: 38px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 73px;
+}
+.topleagueshead:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(https://crystalstatic.com/cache/b109/Mobile/content/images/live/arrowup-livep.svg);
+  background-repeat: no-repeat;
+  background-size: 11px 6px;
+  width: 11px;
+  height: 6px;
+  right: 14px;
+  top: 16px;
+  transform: rotate(0deg);
+}
+.sportTypeFlag {
+  display: block;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  width: 14px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.sportTypeFlag:after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background: #666666;
+  position: absolute;
+  right: -11px;
+  top: 1px;
+}
+.topleaguesheadlogo {
+  position: absolute;
+  left: 47px !important;
+  top: 11px !important;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center left;
+}
+.live2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  height: 72px;
+  text-decoration: none;
+  background: #242424;
+  border-bottom: 1px solid #3d3d3d;
+  box-sizing: border-box;
+  position: relative;
+}
+.live2:last-child {
+  border-bottom: none;
+}
+.favorite {
+  font-size: 27px;
+  color: #4c4c4c;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  min-width: 36px;
+  height: 72px;
+  text-align: center;
+  line-height: 65px;
+}
+.live2_1 {
+  font-size: 13px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.live2_1_1,
+.live2_1_2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+}
+.live2_1_3 {
+  font-size: 10px;
+  color: #cccccc;
+  line-height: 12px;
+  width: calc(100% - 17px);
+  padding-left: 11px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+  padding-top: 2px;
+  font-family: "CrystalNU4-Regular";
+  display: flex;
+}
+.live2_1_3_stat {
+  background: url(https://crystalstatic.com/cache/b109/Mobile/content/images/live/statistic-live.svg)
+    center;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 21px;
+  height: 18px;
+  position: relative;
+
+  z-index: 2;
+}
+.live2_2_2 {
+  float: left;
+  position: relative;
+  display: flex;
+  color: #fde053;
+}
+.live_2_2_2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.live2_1_3:after {
+  content: "";
+  border-radius: 50%;
+  background-color: #33d728;
+
+  width: 6px;
+  height: 6px;
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  -webkit-animation: pulseSportLiveDot 0.8s infinite ease-in-out;
+  -o-animation: pulseSportLiveDot 0.8s infinite ease-in-out;
+  -ms-animation: pulseSportLiveDot 0.8s infinite ease-in-out;
+  -moz-animation: pulseSportLiveDot 0.8s infinite ease-in-out;
+  animation: pulseSportLiveDot 0.6s infinite ease;
+}
+@-webkit-keyframes pulseSportLiveDot {
+  0% {
+    color: #33b52a;
+  }
+  50% {
+    color: #28e91b;
+  }
+  100% {
+    color: #33b52a;
+  }
+}
+@keyframes pulseSportLiveDot {
+  0% {
+    background-color: #33b52a;
+  }
+  50% {
+    background-color: #28e91b;
+  }
+  100% {
+    background-color: #33b52a;
+  }
+}
+.live2_3 {
+  flex-grow: 1;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 72px;
+  text-align: left;
+  display: flex;
+  will-change: scroll-position;
+  -webkit-overflow-scrolling: touch;
+}
+.live2_3::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.live2_3::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+.live2_3_1 {
+  font-family: "CrystalBetUni-Medium";
+  font-size: 11px;
+  color: #cccccc;
+  text-align: left;
+  vertical-align: top;
+  display: flex;
+}
+.live2_3_0 {
+  float: none;
+  background: none;
+  background-position: inherit;
+  margin: 0;
+  text-decoration: none;
+  color: #808080;
+  font-size: 11px;
+  line-height: normal;
+  font-family: "CrystalBetUni-Medium";
+  width: 52px;
+  height: 72px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: normal;
+  border: none;
+  margin: initial;
+  border-radius: initial;
+  text-align: center;
+  padding-top: 19px;
+  font-size: 11px;
+  line-height: 15px;
+  color: #808080;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.live2_3_span {
+  color: #e6e6e6;
+  font-size: 12px;
+  font-family: "CrystalBetUni-Bold";
+  line-height: 17px;
+  display: block;
+  width: 100%;
+  margin-top: 2px;
+  text-align: center;
+}

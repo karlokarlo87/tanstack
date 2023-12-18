@@ -1,0 +1,69 @@
+.sporttoplist {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding-right: 5px;
+  border: none;
+}
+.sporttoplist::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.sporttoplist::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+.sporttoplista {
+  border: none;
+  text-decoration: none;
+  float: left;
+}
+.sportscrolllist {
+  max-width: 80px;
+  min-width: 80px;
+  display: inline-block;
+  height: 60px;
+  width: auto;
+  position: relative;
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: #d8d8d8;
+  text-align: center;
+  font-family: "CrystalNU4-Regular";
+  vertical-align: top;
+  box-sizing: border-box;
+  padding-top: 34px;
+  cursor: pointer;
+}
+.sportscrolllistspan {
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: left 0px top 0px;
+  display: block;
+  position: absolute;
+  left: calc(50% - 11px);
+  top: 9px;
+  position: absolute;
+  font-family: unset;
+  font-size: 20px;
+  color: unset;
+  left: calc(50% - 10px);
+}
+.tag {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.active {
+  color: #fde053;
+}
