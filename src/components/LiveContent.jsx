@@ -8,9 +8,13 @@ export const SportTypeIdContext = createContext({});
 
 export default function LiveContent() {
   const [sportTypeid, setSportTypeid] = useState(-1);
+  const [searchText, setSearchText] = useState("sfsdfsdf");
+  const contex = {};
   return (
     <>
-      <SportTypeIdContext.Provider value={{ sportTypeid, setSportTypeid }}>
+      <SportTypeIdContext.Provider
+        value={{ sportTypeid, setSportTypeid, searchText, setSearchText }}
+      >
         <BrowserRouter>
           <Header />
           <Routes>

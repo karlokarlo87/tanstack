@@ -18,3 +18,10 @@ export const getRelatedGames = async (id: number, sport: number) => {
     await axiosInstance.get<GetGames[]>(`live/getRelatedGames/${id}/${sport}`)
   ).data;
 };
+export const getGameInfo = async (id: number) => {
+  return (await axiosInstance.get<GetGames[]>(`live/getGameInfo/${id}`)).data;
+};
+export const getGameOdds = async (sport: number) => {
+  return (await axiosInstance.get<GetGames[]>(`live/getGameOdds/${sport}`))
+    .data;
+};

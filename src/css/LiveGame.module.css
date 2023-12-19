@@ -3,6 +3,7 @@
   position: relative;
   z-index: auto;
   margin-top: 110px;
+  max-width: 680px;
 }
 .headerteamslist {
   width: 100%;
@@ -97,4 +98,229 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.livehead {
+  display: inline-block;
+  width: 100%;
+  background: linear-gradient(72.85deg, #5c6566 0.01%, #292d2e 100%);
+  max-width: 680px;
+}
+.livegameclose {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  z-index: 9;
+  background-image: url(https://crystalstatic.com/cache/b109/Mobile/content/images/live/close-live.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+.livegameclose {
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  opacity: 0.2;
+  background: rgba(255, 255, 255, 0.6);
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+.livetab {
+  width: 100%;
+  display: inline;
+}
+.livegametrackerinfopanel {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+.livegameperiod {
+  width: 100%;
+  font-family: "CrystalNU4-Regular";
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  padding-top: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  z-index: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.livegameheadertopinner {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 27px;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+}
+.livelisthedteam1,
+.livelisthedteam2 {
+  font-family: "CrystalNU4-Bold";
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  position: relative;
+  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.vcenter {
+  width: 100%;
+  max-width: 92px;
+  display: table;
+  flex: 1;
+  box-sizing: border-box;
+}
+.vcenter span {
+  max-width: 91px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.livetoplogoteam1 {
+  background-image: url(https://crystalstatic.com/cache/b109/Mobile/content/images/live/baskethome.svg);
+}
+.livetoplogoteam2 {
+  background-image: url(https://crystalstatic.com/cache/b109/Mobile/content/images/live/basketaway.svg);
+}
+.livelisthedscore {
+  height: 32px;
+  font-family: "CrystalBetUni-Bold";
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(255, 255, 255, 0.6);
+  padding-top: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: -0;
+}
+.livelisthedscore1,
+.livelisthedscore2 {
+  font-family: "CrystalBetUni-Bold";
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+}
+.livelisthedscore1,
+.livelisthedscore2 {
+  font-family: "CrystalBetUni-Bold";
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+}
+.livegameperiodinfo {
+  width: 100%;
+  position: absolute;
+  top: 26px;
+  left: 0px;
+  font-family: "CrystalNU4-Bold";
+  font-size: 10px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1;
+  box-sizing: border-box;
+  z-index: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.livegamedashboard {
+  width: 100%;
+  height: 65px;
+  position: relative;
+  margin-top: 58px;
+  background: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+}
+.livegamelist21 {
+  float: left;
+  width: 166px;
+  font-family: "CrystalNU4-Bold";
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  padding-left: 16px;
+  padding-right: 5px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  flex: 1;
+}
+.livegamelist21 div {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-bottom: 7px;
+}
+.livetoplogoteam1,
+.livetoplogoteam2 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.livelistrightitems {
+  float: right;
+  margin-right: 15px;
+}
+.livelist23 {
+  float: left;
+  width: 17px;
+  height: 65px;
+  text-align: center;
+  font-size: 11px;
+  color: #ffffff;
+  line-height: 15px;
+  font-family: "CrystalBetUni-Medium";
+  position: relative;
+  width: auto;
+  margin-right: 12px;
+  text-align: right;
+}
+.livelist231 {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 14px;
+  font-size: 10px;
+  font-family: "CrystalBetUni-Medium";
+  margin-top: 5px;
+  height: 14px;
+}
+.livelist232 {
+  margin-top: 3px;
+}
+.livelist233 {
+  margin-top: 2px;
+}
+.livelist23.active div {
+  color: #fde053;
+}
+.yellow {
+  color: #fff;
 }

@@ -14,7 +14,6 @@ export default function Sporttype() {
   if (sportTypesQuery == undefined) return null;
 
   const handleGetSport = (id) => {
-    console.log(id);
     setSportTypeid(id);
     navigate("/lives", { replace: true });
   };

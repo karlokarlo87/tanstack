@@ -1,6 +1,12 @@
 import { useQuery } from "@tanstack/react-query";
 import { getSportTypes } from "./api";
-import { getgetGames, getgetGame, getRelatedGames } from "./apiGames";
+import {
+  getgetGames,
+  getgetGame,
+  getRelatedGames,
+  getGameInfo,
+  getGameOdds,
+} from "./apiGames";
 export function useSportTypes() {
   return useQuery({
     queryKey: ["live"],
@@ -37,5 +43,24 @@ export function useRelatedGames(id: number, sport: number) {
     queryFn: () => getRelatedGames(id, sport),
     //refetchInterval: 5000,
     refetchOnWindowFocus: false,
+  });
+}
+
+export function useGameInfo(id: number) {
+  return useQuery({
+    queryKey: ["info", id],
+    queryFn: () => getGameInfo(id),
+    //refetchInterval: 5000,
+    refetchOnWindowFocus: false,
+    //staleTime: Infinity,
+  });
+}
+export function useGameOdds(id: number) {
+  return useQuery({
+    queryKey: ["odds", id],
+    queryFn: () => getGameOdds(id),
+    refetchInterval: 1000,
+    refetchOnWindowFocus: false,
+    staleTime: Infinity,
   });
 }
